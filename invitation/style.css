@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Noto+Naskh+Arabic:wght@400;500;600&family=Noto+Nastaliq+Urdu&family=Tiro+Kannada:ital@0;1&display=swap');
+*{
+	padding:0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.container{
+    width:100%;
+    height: auto;
+    font-family: 'cookie', cursive;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    background-color: #ff99b6;
+    overflow: hidden;
+}
+.banner{
+    width:100%;
+    height: 650px;
+    background-image: url(img/date.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    border-radius: 0 0 500px 0;
+}
+.nav{
+    width:90%;
+    height: auto;
+    background-color: rgba(255, 200, 200, 0.915);
+    border-radius: 30px;
+    margin-top: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+/* .nav b{
+    font-size: 40px;
+    margin-left: 20px;
+} */
+.menu{
+    width:50%;
+    height: 60px;
+    border-radius: 30px;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.5);
+    transition-duration: .5s;
+}
+.menu a{
+    text-decoration: none;
+    font-size: 25px;
+    color:#333;
+    font-weight: bolder;
+    transition-duration: .5s;
+}
+.menu a:hover{
+    border-bottom: 5px solid #f15;
+}
+.text{
+    width:100%;
+    position: relative;
+    top:40px;
+    left: 20px;
+    font-size: 17px;
+    text-align: left;
+}
+.text h1{
+    color:rgba(255, 17, 84, 0.798);
+    text-shadow: 0 3px 10px rgba(0,0,0,.5);
+}
+.text .date{
+    color:#fff;
+    background-color: rgba(101, 70, 70, 0.552);
+    padding: 5px;
+    border-radius: 40px 0 40px 0;
+    transition-duration: .5s;
+}
+.text .date:hover{
+    background-color: #fff;
+    color:#f15;
+}
+.section{
+    width:100%;
+    height: auto;
+    background-color: #efefef;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.us{
+    width:80%;
+    height: auto;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 0 3px 10px 0 rgba(100,100,100,.3);
+}
+
+.us p {
+    text-align: center;
+    font-size: 15px;
+    margin: 2px;
+    padding: 2px;
+}
+
+.section h2{
+    width:100%;
+    text-align: center;
+    color:#f15;
+    font-size: 25px;
+}
+
+.fname {
+    font-size: 10px;
+}
+
+.venue{
+    width:80%;
+    height: auto;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    box-shadow: 0 3px 10px 0 rgba(100,100,100,.3);
+}
+
+.venue p{
+    font-size: 15px;
+    line-height: 30px;
+    color:#333;
+    text-align: center;
+}
+
+.party{
+    width:80%;
+    height: auto;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    box-shadow: 0 3px 10px 0 rgba(100,100,100,.3);
+}
+.party p{
+    font-size: 15px;
+    line-height: 30px;
+    color:#333;
+    font-family: 'Noto Naskh Arabic', serif;
+}
+.urdu {
+    font-family: 'Noto Nastaliq Urdu', serif;
+    font-size: 15px;
+    line-height: 30px;
+    color:#333;
+}
+footer{
+    width:100%;
+    height: auto;
+    color:#ddd;
+    font-size: 15;
+    font-family: monospace;
+    background-color: rgb(168, 156, 198);
+    margin-top: 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+footer p{
+    color:rgb(247, 249, 250);
+    font-size: 15;
+    margin: 3px;
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+}
